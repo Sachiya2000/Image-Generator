@@ -1,0 +1,76 @@
+.aiImgGenerator{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 30px;
+    height: 100vh;
+}
+.header{
+   
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.header span{
+    color: #de1889;
+    font-weight: 600;
+
+
+}
+.img-loading{
+    display: flex;
+    flex-direction: column;
+}
+.img-loading img{
+    width: 400px;
+}
+.search-box{
+    display: flex;
+    width: 1000px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #1f3540;
+}
+.search-input{
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 35px;
+    margin-right: 35px;
+
+}
+.search-input::placeholder{
+    color: #999;
+}
+.generate{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #de1889;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.generate:hover{
+    background-color: #de1889;
+}
+.generate:active{
+    background-color: #de1889;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
